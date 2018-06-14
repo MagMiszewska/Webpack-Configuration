@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "webpack"
+    "build": "webpack",
+    "start": "node build/app.bundle.js"
   },
   "keywords": [],
   "author": "",
